@@ -125,9 +125,9 @@ public class ScrollRulerView extends View {
         yText = (getHeight() / 2);
 
         lineMaxHeight = getHeight() -
-                mTypedArray.getDimension(R.styleable.ScrollRulerView_srMaxHeghtLine, mDensity * 30);
+                mTypedArray.getDimension(R.styleable.ScrollRulerView_srMaxHeightLine, mDensity * 30);
         lineMinHeight = getHeight() -
-                mTypedArray.getDimension(R.styleable.ScrollRulerView_srMinHeghtLine, mDensity * 15);
+                mTypedArray.getDimension(R.styleable.ScrollRulerView_srMinHeightLine, mDensity * 15);
 
         halfWidth = getWidth() / 2;
         halfHeight = getHeight() / 2;

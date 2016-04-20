@@ -9,8 +9,8 @@
         </attr>
         <attr name="srDivider" format="dimension"/>
         <attr name="srDividerColor" format="color"/>
-        <attr name="srMaxHeghtLine" format="dimension"/>
-        <attr name="srMinHeghtLine" format="dimension"/>
+        <attr name="srMaxHeightLine" format="dimension"/>
+        <attr name="srMinHeightLine" format="dimension"/>
         <attr name="srTextSize" format="dimension"/>
         <attr name="srTextColor" format="color"/>
         <attr name="srTextColorHint" format="color"/>
