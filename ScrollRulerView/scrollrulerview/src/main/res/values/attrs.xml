@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollRulerView">
+        <attr name="srType">
+            <flag name="HALF" value="2"/>
+            <flag name="ONE" value="10"/>
+            <flag name="THOU" value="1000"/>
+        </attr>
+        <attr name="srDivider" format="dimension"/>
+        <attr name="srDividerColor" format="color"/>
+        <attr name="srMaxHeghtLine" format="dimension"/>
+        <attr name="srMinHeghtLine" format="dimension"/>
+        <attr name="srTextSize" format="dimension"/>
+        <attr name="srTextColor" format="color"/>
+        <attr name="srTextColorHint" format="color"/>
+        <attr name="srMaxValue" format="integer"/>
+        <attr name="srValue" format="integer"/>
+        <attr name="srMinModDivider" format="integer"/>
+    </declare-styleable>
+</resources>

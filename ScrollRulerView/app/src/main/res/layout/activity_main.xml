@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ls="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical" >
+
+    <com.notrace.scrollrulerview.ScrollRulerView
+        android:id="@+id/tuneWheelView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        ls:srDivider="6.5dp"
+        ls:srMaxHeghtLine="15dp"
+        ls:srMaxValue="5000"
+        ls:srMinHeghtLine="8dp"
+        ls:srMinModDivider="100"
+        ls:srTextColor="#4A4A4A"
+        ls:srTextColorHint="#9B9B9B"
+        ls:srTextSize="11sp"
+        ls:srType="THOU"
+        ls:srValue="0"
+        />
+
+</LinearLayout>
