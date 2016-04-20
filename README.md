@@ -29,9 +29,9 @@ project的gradle
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         app:srDivider="6.5dp"
-        app:srMaxHeghtLine="15dp"
+        app:srMaxHeightLine="15dp"
         app:srMaxValue="5000000"
-        app:srMinHeghtLine="8dp"
+        app:srMinHeightLine="8dp"
         app:srMinModDivider="100"
         app:srTextColor="#4A4A4A"
         app:srTextColorHint="#9B9B9B"
@@ -40,6 +40,14 @@ project的gradle
         app:srValue="0"
         />
         
+        
+ 属性解释    
+  srDivider:刻度之间的间距    
+  srMaxHeight长刻度高度
+  srMaxValue尺子最大刻度
+  srMinModDivider刻度分值
+  srMinHeightLine短刻度高度
+  
         
  在activity或者fragment中实现onValuechangeListener实现数据的监听，     
  
