@@ -39,13 +39,16 @@ project的gradle
         app:srType="THOU"
         app:srValue="0"
         />
-        
-        
+
  属性解释    
-  srDivider:刻度之间的间距    
-  srMaxHeight长刻度高度
-  srMaxValue尺子最大刻度
-  srMinModDivider刻度分值
+  srDivider:刻度之间的间距      
+  
+  srMaxHeight长刻度高度    
+  
+  srMaxValue尺子最大刻度    
+  
+  srMinModDivider刻度分值    
+  
   srMinHeightLine短刻度高度
   
         
